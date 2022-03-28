@@ -16,8 +16,7 @@ function merge(left, right) {
   // use spread operator and create a new array,
   // combining the three arrays
   return [...sortedArr, ...left, ...right];
-
-  console.log(merge([3, 4, 7], [2, 5]));
+  
 }
 
 // need a function that splits an array into 1 size
